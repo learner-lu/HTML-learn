@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>网页的标题</title>
+</head>
+
+<body>
+    <h1><a href="https://www.bilibili.com/video/BV14J4114768" target="_blank">HTML部分</a></h1>
+    <h1 id="link">一级标题</h1>
+    <h2><a href="#bottom" id="top">到达底部</a></h2>
+    <h6>六级标题</h6>
+    <p>独自成段，其中可加<br />强制换行</p>
+    <div>division 竖版</div>
+    <span>横版</span>
+    <span>横版</span>
+    <span>
+        <strong>加粗</strong>
+        <em>倾斜</em>
+        <del>删除线</del>
+        <ins>下划线</ins>
+    </span>
+    <span>
+        <h4>image</h4>
+
+        <img src="0.jpg" alt=错误时替换的文字 title=鼠标移到这里的文字 width="200">
+        <img src="must.jpg" alt=错误时替换的文字 title=鼠标移到这里的文字 width="200">
+    </span>
+    <div>
+        <h3>链接</h3>
+        <h4>直接跳转</h4>
+        <a href="http://www.qq.com" target="_self">qq</a>
+        <h4>新建页跳转</h4>
+        <a href="http://www.baidu.com" target="_blank">baidu</a>
+        <h4>空链接 等待后续补充</h4>
+        <a href="#">空链接</a>
+        <h4>下载包</h4>
+        <a href="0.zip">下载地址</a>
+        <h4>网页元素的超链接</h4>
+        <a href="http://www.baidu.com"><img src="0.jpg" /></a>
+        <h4>文本内跳转</h4>
+        <a href="#link">跳转至标签位置</a>
+        <h4>注释部分</h4>
+        &lt;!--&nbsp;注释部分&nbsp;--!&gt;
+        <!-- 注释部分 -->
+    </div>
+    <div>
+        <h4>特殊字符的处理</h4>
+        5个&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空格<br />
+        <img src="special_character.png">
+
+    </div>
+    <div>
+        <h4>表格的使用</h4>
+        <h4>通常在CSS中设置</h4>
+        <img src="table.png">
+        <table align="center">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>sex</th>
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>lu</td>
+                    <td>man</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>x</td>
+                    <td>y</td>
+                    <td>z</td>
+                </tr>
+            </tbody>
+        </table>
+        <table align="center" border="1" cellpadding="0" cellspacing="0" width="200" height="200">
+            <tr>
+                <td></td>
+                <td colspan="2"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h4>无序列表</h4>
+        <ul>
+            <li>li可以是任意元素</li>
+            <li>ul内只能加li</li>
+        </ul>
+        <h4>有序列表</h4>
+        <ol>
+            <li>li可以是任意元素</li>
+            <li>ul内只能加li</li>
+        </ol>
+        <h4>自定义列表</h4>
+        <dl>
+            <dt>关注我</dt>
+            <dd>qq</dd>
+            <dd>vx</dd>
+            <dd>样式由CSS来写</dd>
+        </dl>
+    </div>
+    <div>
+        <h4>表单</h4>
+        <h4>将内部的表单内容提交到后端服务器</h4>
+        <form action="demo.php" method="get" name="name1">
+            用户名: <input type="text" name="username" value="please"><br>
+            密码 : <input type="password" name="password"><br>
+            单选框: 男 <input type="radio" name="sex" value="man" checked="checked"> 女 <input type="radio" name="sex"
+                value="woman"><br>
+            多选框: a <input type="checkbox" name="hobby" value="a"> b <input type="checkbox" name="hobby" value="b"><br>
+            <input type="submit" value="这是一个提交按钮">
+            <input type="reset" value="重新填写">
+            <input type="button" value="与js配合">
+            <input type="file" value="上传文件">
+        </form>
+    </div>
+    <div>
+        <h4>label增加面积</h4>
+        <input type="radio" id="sex">
+        <label for="sex">男</label>
+    </div>
+    <div>
+        <form action="xxx.php" method="post" name="name2">
+            籍贯
+            <select>
+                <option>北京</option>
+                <option>上海</option>
+                <option>广东</option>
+            </select><br>
+            <textarea>这是一个多行文本</textarea>
+        </form>
+    </div>
+    <h1><a href="https://www.bilibili.com/video/BV14J4114768?p=61" target="_blank">CSS部分</a></h1>
+    <h4 id="bottom"><a href="#top">回到顶部</a></h4>
+</body>
+
+</html>
